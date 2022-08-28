@@ -59,7 +59,7 @@ This library would not have gotten to this working state without the help of
 $ pip install dalle2-pytorch
 ```
 
-## Install Using Conda With GPU support
+## Install Using Conda With CUDA GPU support
 
 - Navigate to https://www.anaconda.com/ and download the package. Install it.
 - Run Anaconda Navigator
