@@ -59,6 +59,16 @@ This library would not have gotten to this working state without the help of
 $ pip install dalle2-pytorch
 ```
 
+## Install Using Conda With GPU support
+
+- Navigate to https://www.anaconda.com/ and download the package. Install it.
+- Run Anaconda Navigator
+- Click launch button for Command Prompt.
+- Go to https://pytorch.org/
+- Go to the config table section and choose the GPU version. For example: 11.6
+- Copy the command from the table and paste it in the command prompt. For example: "conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge"
+
+
 ## Usage
 
 To train DALLE-2 is a 3 step process, with the training of CLIP being the most important
