@@ -66,8 +66,10 @@ $ pip install dalle2-pytorch
 - Click launch button for Command Prompt.
 - Go to https://pytorch.org/
 - Go to the config table section and choose the GPU version. For example: 11.6
-- Copy the command from the table and paste it in the command prompt. For example: "conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge"
-
+- Copy the command from the table and paste it in the command prompt. For example: 
+```bash 
+conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
+```
 
 ## Usage
 
